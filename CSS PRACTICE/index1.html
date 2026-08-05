@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        /* Selectors in CSS */
+        p{
+            color:aqua;
+            background-color: black;
+        }
+        /* Class Selector */
+        .container{
+            color:rgb(230, 134, 17);
+        }
+        /* ID Selector */
+        #highlight{
+            background-color: yellow;
+        }
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:hover{
+            background-color:blueviolet;
+        }
+        a:visited{
+            color:greenyellow
+        }
+    </style>
+</head>
+<body>
+    <p>This is a paragraph with aqua color.</p>
+    <div class="container">
+        This is a class selector with rgb color.
+    </div>
+    <p id="highlight">This is an ID selector with yellow background.</p>
+    <a href="https://www.google.com">Google.</a>
+    <a href="https://www.youtube.com">Youtube.</a>
+</body>
+</html>
